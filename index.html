@@ -546,7 +546,7 @@
     <div class="overlay is-open">
       <div class="modal">
         <button class="modal-btn" type="button">
-          <svg class="modal-btn-icon" width="8px" height="8px">
+          <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
@@ -562,7 +562,7 @@
                 id="user-name"
                 required
               />
-              <svg class="label-icon" width="18" height="18">
+              <svg class="label-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
@@ -597,24 +597,25 @@
               </svg>
             </div>
           </div>
-          <div class="modal-contaainer">
-            <label class="label-modal" for="comment">Comment</label>
+          <div class="modal-contaainer-textarea">
+            <label class="label-modal" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea"
               placeholder="Text input"
-              name="user-text"
-              id="comment"
+              name="user-comment"
+              id="user-comment"
             ></textarea>
           </div>
-          <div class="modal-contaainer">
+          <div class="modal-contaainer-checkbox">
             <input
               class="modal-check visually-hidden"
               type="checkbox"
-              name="terms"
-              id="terms"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               required
             />
-            <label class="check-text" for="terms">
+            <label class="check-text" for="user-privacy">
               <span class="check-box">
                 <svg class="check-box-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-property-click"></use>
